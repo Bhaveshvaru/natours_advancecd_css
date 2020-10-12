@@ -1,12 +1,24 @@
 {
   "name": "natours-css-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "advanced css natours project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Bhavesh varu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhaveshvaru/natours_advancecd_css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bhaveshvaru/natours_advancecd_css/issues"
+  },
+  "homepage": "https://github.com/Bhaveshvaru/natours_advancecd_css#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
